@@ -8,10 +8,10 @@
           <?php include('navigation.php') ?>
         </div>
         <div class="row">
-          <div class="col-xs-6 hero-skater">
+          <div class="col-sm-6 hero-skater">
             <img class="center-block" src="images/skater-01.png" />
           </div>
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <p class="hero-text text-gold">
               Hockey Applications <br />
               <span class="text-white text-bold">For Players By Players</span>
