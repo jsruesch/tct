@@ -1,15 +1,14 @@
 <?php include('header.php') ?>
-<?php include('navigation.php') ?>  
+<?php include('navigation.php') ?>
 
-       
-<!-- Page Wrap -->       
-<div class="wrap">
-    
-    <div class="main_content">
+
+<!-- Page Wrap -->
+<div class="container-fluid">
+
+    <div class="container">
         <p>hello</p>
-    </div><!-- End Main Content -->
-    
-</div><!-- End Page Wrap -->
+    </div><!-- /.container -->
 
-<?php include('footer.php') ?> 
+</div><!-- /.container-fluid -->
 
+<?php include('footer.php') ?>

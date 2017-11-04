@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 
-    <title>jweb</title>
+    <title>Top Cheddar Technologies</title>
     <meta name="description"
-          content="">
+          content="Hockey applications for players, by players.">
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>

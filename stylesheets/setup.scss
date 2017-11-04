@@ -110,3 +110,9 @@
  .mar20-left{    margin-left: 20px !important; }
  .mar25-left{    margin-left: 25px !important; }
  .mar30-left{    margin-left: 30px !important; }
+
+ /* Responsive Adjustments */
+ @media screen and (max-width:768px){ .pad60{ padding: 35px !important; } }
+ @media screen and (max-width:992px){ .pad60{ padding: 35px !important; } }
+ @media (max-width:992px){ .pad60{ padding: 35px !important; } }
+ @media (max-width:768px){ .pad60{ padding: 35px !important; } }
