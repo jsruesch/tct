@@ -399,9 +399,32 @@ h1, h2, h3, h4, h5 {
   .hero-text {
     font-size: 20px !important;
     padding-top: 100px !important; } }
-/* End Desktops */
-/*-----------------  Smartphones  -----------------*/
-/* End Smartphones */
+/*-----------------  Devices  -----------------*/
+@media screen and (max-device-width: 768px) {
+  .hero {
+    height: 250px !important; }
+
+  .hero-skater {
+    display: none; }
+
+  .hero-text {
+    text-align: center !important;
+    font-size: 20px !important;
+    padding-top: 50px !important; } }
+@media (min-device-width: 960px) and (max-device-width: 1200px) {
+  .hero {
+    height: 408px !important; }
+
+  .hero-text {
+    font-size: 20px !important;
+    padding-top: 100px !important; } }
+@media (min-device-width: 768px) and (max-device-width: 960px) {
+  .hero {
+    height: 408px !important; }
+
+  .hero-text {
+    font-size: 20px !important;
+    padding-top: 100px !important; } }
 /* END: Imports */
 /**
  * =========================================
@@ -423,9 +446,9 @@ html {
   background: #121418; }
 
 p {
-  font-famly: "Catamaran", sans-serif;
-  letter-spacing: 2px;
-  font-size: 16px; }
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px; }
 
 ul {
   list-style: none; }

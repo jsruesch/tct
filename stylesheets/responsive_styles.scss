@@ -26,9 +26,24 @@
   .hero-text{ font-size: 20px !important; padding-top: 100px !important;  }
 }
 
-@media (min-device-width: 519px) and (max-devide-width:770px){  }
-/* End Desktops */
 
-/*-----------------  Smartphones  -----------------*/
-@media (max-device-width: 519px) {  }
-/* End Smartphones */
+
+/*-----------------  Devices  -----------------*/
+@media screen and (max-device-width:768px){
+
+  .hero{ height: 250px !important }
+  .hero-skater{ display:none; }
+  .hero-text{ text-align: center !important; font-size: 20px !important; padding-top: 50px !important;  }
+}
+
+@media (min-device-width: 960px) and (max-device-width:1200px){
+
+  .hero{ height: 408px !important; }
+  .hero-text{ font-size: 20px !important; padding-top: 100px !important;  }
+}
+
+@media (min-device-width: 768px) and (max-device-width:960px){
+
+  .hero{ height: 408px !important; }
+  .hero-text{ font-size: 20px !important; padding-top: 100px !important;  }
+}
