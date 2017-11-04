@@ -27,11 +27,13 @@
  * =========================================
  */
 
-  $blue:   #121418;
-  $dblue:  #030303;
-  $red:    #bf1e2e;
-  $gold:   #c2b59b;
-  $white:  #ffffff;
+  $blue:      #121418;
+  $lblue:     #66686b;
+  $dblue:     #030303;
+  $red:       #bf1e2e;
+  $gold:      #c2b59b;
+  $white:     #ffffff;
+  $catamaran: 'Catamaran', sans-serif;
 
  /* END Variables */
 
@@ -43,12 +45,14 @@
  */
 
   .text-blue{   color: $blue !important; }
+  .text-lblue{  color: $lblue !important; }
   .text-dblue{  color: $dblue !important; }
   .text-red{    color: $red !important; }
   .text-gold{   color: $gold !important; }
   .text-white{  color: $white !important; }
 
   .bg-blue{   background: $blue; }
+  .bg-lblue{  background: $lblue; }
   .bg-dblue{  background: $dblue; }
   .bg-red{    background: $red; }
   .bg-gold{   background: $gold; }

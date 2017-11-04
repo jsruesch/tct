@@ -37,14 +37,20 @@
 
  a{  }
 
- p{  }
+ p{
+   font-famly: $catamaran;
+   letter-spacing: 2px;
+   font-size: 16px;
+}
 
  ul{ list-style:none; }
 
  hr{  }
 
  h1, h2, h3, h4, h5, h6{
-   font-family: 'Catamaran', sans-serif;
+   font-family: $catamaran;
+   text-transform: uppercase;
+   letter-spacing: 5px;
  }
 
  table tr{  }
@@ -63,6 +69,8 @@
  .clear{ clear: both; }
  .left{  float: left; }
  .right{ float: right; }
+ .full{ width: 100%; float: left; }
+
  /* Five Columns Setup */
  .col-xs-15,
  .col-sm-15,
@@ -78,6 +86,17 @@
    float: left;
  }
 
+.text-bold{ font-weight: 900 !important; }
+
+.alpha{
+  background: $red;
+  color: $white;
+  font-weight: 900;
+  padding: 3px 8px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
  /* END: Utility Classes */
 
 
@@ -88,7 +107,47 @@
   */
 
   .nav-logo{
+    margin: 20px 0px 0px 10px;
+    height: 35px;
+  }
 
+  .nav{
+    float: right;
+    padding: 20px 10px 20px  0;
+
+    li{
+      float: left;
+
+      &:nth-child(odd){
+        a{
+          @include transition;
+
+          color: $white;
+          font-weight: 400;
+          font-size: 16px;
+          letter-spacing: 2px;
+          font-family: $catamaran;
+          text-transform: uppercase;
+
+          background: none !important;
+          margin-bottom:3px;
+          border-bottom: 0px solid $red;
+          padding: 5px 3px;
+
+          &:hover{
+            @include transition;
+            margin-bottom: 0px;
+            border-bottom: 3px solid $red;
+          }
+        }
+      }
+      &:nth-child(even){
+        background: #4c2f37;
+        height: 20px;
+        width: 1px;
+        margin: 5px 15px 0 15px;
+      }
+    }
   }
 
 /* END: Navigation */
@@ -103,6 +162,23 @@
 .hero{
   background: url(../images/hero-01.png) 50% 0% repeat-x;
   height: 550px;
+  overflow: hidden;
+
+  .hero-skater{
+    img{
+      width: 80%;
+      padding-top: 30px;
+    }
+  }
+
+  .hero-text{
+    font-size: 30px;
+    text-align: left;
+    font-family: $catamaran !important;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 30% 0;
+  }
 }
 
 
