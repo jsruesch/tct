@@ -2,8 +2,8 @@
 <?php include('navigation.php') ?>
 
 
-<!-- Page Wrap -->
-<div class="container-fluid">
+<!-- Hero -->
+<div class="container-fluid hero">
 
     <div class="container">
         <p>hello</p>

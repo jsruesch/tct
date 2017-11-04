@@ -9,7 +9,9 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Google Webfonts -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,400,700,900" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap -->
