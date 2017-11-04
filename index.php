@@ -97,8 +97,11 @@
         </p>
         <p class="text-white text-center"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
       </div>
-
 			</form>
+    </div>
+    <div class="row">
+      <h3 class="text-center text-bold text-white mar5-bot">Thank you!</h3>
+      <h4 class="text-center text-bold text-gold">Andy, Jake, and Cole</h4>
     </div>
   </div>
 </div><!-- END: Donations -->
